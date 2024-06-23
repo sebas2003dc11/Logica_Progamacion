@@ -19,5 +19,9 @@ while (numeroUsuario != numeroSecreto) {
     }
     intentos = intentos + 1;
     palabraVeces = "veces";
+    if (intentos > 3) {
+      alert("Llegaste al máximo de intentos");
+      break;
+    }
   }
 }
